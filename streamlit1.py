@@ -1,3 +1,7 @@
+streamlit==1.35.0
+plotly
+pandas
+matplotlib
 import streamlit as st
 import pandas as pd
 import plotly.express as px
