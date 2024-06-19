@@ -1,4 +1,12 @@
 import streamlit as st
+
+# Diagnostic code to check plotly installation
+try:
+    import plotly.express as px
+    st.success("Plotly is installed correctly!")
+except ModuleNotFoundError as e:
+    st.error(f"Plotly is not installed. Error: {e}")
+import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
