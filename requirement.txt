@@ -3,8 +3,9 @@ pandas
 numpy
 streamlit_extras
 streamlit_lottie
-plotly.express
+plotly
 seaborn
+
 
 
 
