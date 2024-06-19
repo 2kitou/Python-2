@@ -27,7 +27,7 @@ with st.expander("Group Information"):
     )
 
 # Load the data
-data = pd.read_csv('/Users/tuankiet/Documents/python/StudentsPerformance.csv')
+data = pd.read_csv('StudentsPerformance.csv')
 
 # Sidebar for user inputs
 st.sidebar.title("Filter Options")
