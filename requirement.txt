@@ -5,6 +5,8 @@ streamlit_extras
 streamlit_lottie
 plotly
 seaborn
+matplotlib
+
 
 
 
