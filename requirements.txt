@@ -6,6 +6,7 @@ streamlit_lottie
 plotly
 seaborn
 matplotlib
+statsmodels
 
 
 
