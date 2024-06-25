@@ -68,6 +68,21 @@ st.write(filtered_data.describe())
 st.subheader("Data Table")
 st.dataframe(filtered_data)
 
+with st.expander("Data Variables"):
+    st.markdown("""
+In this dataset, it has a total of 8 variables:
+
+- **gender**: Indicates whether the student is male or female.
+- **race/ethnicity**: Categorizes students into different groups based on race or ethnicity, such as ‘group A’, ‘group B’, 'group C', 'group D' and 'group E'.
+- **parental level of education**: Describes the highest level of education attained by the student’s parents, ranging from high school to master’s degree.
+- **lunch**: Specifies the type of lunch the student has, ‘standard’ or ‘free/reduced’, which may reflect their socio-economic status.
+- **test preparation course**: Shows whether the student completed a test preparation course (‘completed’) or not (‘none’).
+- **math score**: A numerical score representing the student’s performance in mathematics.
+- **reading score**: A numerical score indicating how well the student performed in reading.
+- **writing score**: A numerical score reflecting the student’s ability in writing.
+
+These variables are likely used to analyze the performance of students in different aspects and how factors like gender, ethnicity, and parental education level might influence their academic outcomes.
+""")
 # Create tabs for navigation
 tab1, tab2 = st.tabs(["General relation", "Others"])
 
